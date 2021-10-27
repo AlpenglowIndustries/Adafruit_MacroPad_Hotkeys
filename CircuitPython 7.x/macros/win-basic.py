@@ -15,19 +15,13 @@ app = {                # REQUIRED dict, must be named 'app'
         (0x0de05e, 'Undo', [Keycode.CONTROL, 'z']),
         (0x0de05e, 'Rfresh', [Keycode.CONTROL, 'r']),
         # 3rd row ----------
-        (0x770de0, 'Tindie', [Keycode.CONTROL, 't', -Keycode.COMMAND,
-                             'https://www.tindie.com/orders/\n']), # Tindie orders in new tab
-        (0x770de0, 'Yarn', [Keycode.CONTROL, 't', -Keycode.COMMAND,
-                             'https://www.weebly.com/app/store/users/44315549/sites/294261841826241486/#/store/orders\n']), # Alpenglow Yarn orders in new tab
-        (0x770de0, 'AlpInd', [Keycode.CONTROL, 't', -Keycode.COMMAND,
-                             'https://www.weebly.com/app/store/users/44315549/sites/686100740128112971/#/store/orders\n']), # Alpenglow Industries orders in new tab
+        (0x770de0, 'New Tab', [Keycode.CONTROL, 't']),
+        (0x770de0, 'New Win', [Keycode.CONTROL, 'n']),
+        (0x770de0, 'Task', [Keycode.CONTROL, Keycode.SHIFT, Keycode.ESCAPE,]),
         # 4th row ----------
-        (0x770de0, 'Twitter', [Keycode.CONTROL, 't', -Keycode.COMMAND,
-                           'https://twitter.com/alpenglowind\n']),   # Alpenglow Twitter in new tab
-        (0x770de0, 'Ytube', [Keycode.CONTROL, 't', -Keycode.COMMAND,
-                            'https://www.youtube.com/channel/UCo8j_W8OaqIE78o4_Z4OagQ\n']),   # Alpenglow YouTube in new tab
-        (0x770de0, 'Hacks', [Keycode.CONTROL, 't', -Keycode.COMMAND,
-                             'https://hackaday.io/alpenglow\n']), # Hack-a-Day in new tab
+        (0x770de0, 'Lock', [Keycode.WINDOWS, 'l']),
+        (0x770de0, 'Vol+', [Keycode.CONTROL, Keycode.F3]),
+        (0x770de0, 'Vol-', [Keycode.CONTROL, Keycode.F3]),
         # Encoder button ---
         (0x000000, '', [Keycode.BACKSPACE])
     ]
